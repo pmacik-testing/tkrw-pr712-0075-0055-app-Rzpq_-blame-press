@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-esrp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0055-tenant/tkrw-pr712-0075-0055-app/devfile-sample-esrp@sha256:e97a260e9715e5da6c7e8213f820888d72982476787418d550a7eb794d685b27
         name: my-nodejs
         ports:
         - containerPort: 3001
